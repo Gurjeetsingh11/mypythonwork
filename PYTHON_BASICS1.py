@@ -281,7 +281,48 @@ mylist.insert(2,"mango")
 print(mylist)
 
 
-# In[ ]:
+#APPEND
+list1=["apple","mango","BANANA"]
+list1.append("guava")
+print(list1)
+
+#EXTENDS
+list1=["apple","mango","BANANA"]
+list2=["guava","grapes","melon"]
+list1.extend(list1)
+print(list1)
+
+#EXTEND WITH TUPLE
+list1=["apple","mango","BANANA"]
+list2=("guava","grapes","melon")
+list1.extend(list2)
+print(list1)
+
+#REMOVE FROM LIST
+list1=['apple', 'mango', 'BANANA', 'guava', 'grapes', 'melon']
+list1.remove('apple')
+print(list1)
+
+#REMOVE FROM INDEX
+list1=['apple', 'mango', 'BANANA', 'guava', 'grapes', 'melon']
+list1.pop(4)
+print(list1)
+
+#DELETE KEY WORD IS USED FOR INDEX DELETION AS WELL
+list1=['apple', 'mango', 'BANANA', 'guava', 'grapes', 'melon']
+del list1[2]
+print(list1)
+
+#DELETE WHOLE LIST
+list2=("guava","grapes","melon")
+del list2
+#print(list2)
+
+#CLEAR THE LIST
+list1=['apple', 'mango', 'BANANA', 'guava', 'grapes', 'melon']
+list1.clear()
+print(list1)
+
 
 
 
